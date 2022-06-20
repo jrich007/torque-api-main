@@ -1,5 +1,5 @@
 name: Torque API
-version: "3.1"
+version: "3.2"
 slug: frigate
 description: MQTT for Torque - HA Version
 url: "https://github.com/jrich007/torque-api-main"
@@ -12,11 +12,9 @@ ingress_port: 5000
 ingress_entry: /
 panel_admin: false
 ports:
-  5000/tcp: 5000
-  1935/tcp: 1935
+  8128/tcp: 8128
 ports_description:
-  5000/tcp: Web interface (Not required for Hass.io Ingress)
-  1935/tcp: RTMP streams
+  8128/tcp: Main port from Torque
 host_network: false
 usb: false
 tmpfs: true
