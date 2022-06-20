@@ -1,7 +1,18 @@
 {
     "authentication": {
-        "apiKey": null,
-        "devices": null
+        "apiKey": "APIKEY",
+        "devices": {
+            "justin@jrich.pw": "Ford Edge"
+        }
     },
-    "output": null
+    "output": {
+        "mqtt": {
+            "host": "core-mosquitto",
+            "port": 1883,
+            "username": "frigate",
+            "password": "xSKwPYqPnEGE8B",
+            "clientId": "TorqueAPIDEV",
+            "topic": "torque/device-dev/status"
+        }
+    }
 }

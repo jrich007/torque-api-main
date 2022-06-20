@@ -1,5 +1,5 @@
 name: Torque API
-version: "3.3"
+version: "3.5"
 slug: torque-api
 description: MQTT for Torque - HA Version
 url: "https://github.com/jrich007/torque-api-main"
@@ -7,9 +7,7 @@ startup: application
 boot: auto
 #webui: "http://[HOST]:[PORT:5000]/"
 #watchdog: "http://[HOST]:[PORT:5000]/"
-ingress: true
-ingress_port: 5000
-ingress_entry: /
+ingress: false
 panel_admin: false
 ports:
   8128/tcp: 8128
