@@ -1,0 +1,36 @@
+name: Torque API
+version: "3.1"
+slug: frigate
+description: MQTT for Torque - HA Version
+url: "https://github.com/jrich007/torque-api-main"
+startup: application
+boot: auto
+#webui: "http://[HOST]:[PORT:5000]/"
+#watchdog: "http://[HOST]:[PORT:5000]/"
+ingress: true
+ingress_port: 5000
+ingress_entry: /
+panel_admin: false
+ports:
+  5000/tcp: 5000
+  1935/tcp: 1935
+ports_description:
+  5000/tcp: Web interface (Not required for Hass.io Ingress)
+  1935/tcp: RTMP streams
+host_network: false
+usb: false
+tmpfs: true
+full_access: false
+environment:
+  CONFIG_FILE: /config/config.json
+options: {}
+schema: {}
+services:
+  - "mqtt:need"
+arch:
+  - amd64
+  - armv7
+  - aarch64
+map:
+  - "media:rw"
+  - "config:rw"
