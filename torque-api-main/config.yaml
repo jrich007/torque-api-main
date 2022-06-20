@@ -1,5 +1,5 @@
 name: Torque API
-version: "3.2"
+version: "3.3"
 slug: frigate
 description: MQTT for Torque - HA Version
 url: "https://github.com/jrich007/torque-api-main"
@@ -20,7 +20,7 @@ usb: false
 tmpfs: true
 full_access: false
 environment:
-  CONFIG_FILE: /config/config.json
+  CONFIG_FILE: /config/torque/config.json
 options: {}
 schema: {}
 services:
