@@ -1,5 +1,5 @@
 name: Torque API
-version: "3.5"
+version: "3.6"
 slug: torque-api
 description: MQTT for Torque - HA Version
 url: "https://github.com/jrich007/torque-api-main"

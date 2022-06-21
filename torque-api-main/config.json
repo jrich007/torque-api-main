@@ -13,6 +13,15 @@
             "password": "xSKwPYqPnEGE8B",
             "clientId": "TorqueAPIDEV",
             "topic": "torque/device-dev/status"
+        },
+        "influxdb": {
+            "host": "a0d7b954-influxdb",
+            "port": 8086,
+            "protocol": "http",
+            "bucket": "torque",
+            "organization": "org",
+            "token": "token",
+            "measurement": "device"
         }
     }
 }
