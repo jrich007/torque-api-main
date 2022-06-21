@@ -15,12 +15,12 @@
             "topic": "torque/device-dev/status"
         },
         "influxdb": {
-            "host": "a0d7b954-influxdb",
+            "host": "10.0.1.30",
             "port": 8086,
             "protocol": "http",
             "bucket": "torque",
-            "organization": "org",
-            "token": "x!A%C*F-JaNdRgUkXp2s5v8y/B?E(H+K",
+            "organization": "3427",
+            "token": "iaEInoTY8HTWqpkWBpkc27kuznY5zw66BaDampKCC1bAXChyG9nhPOjT67_lS0D2bZEILF6ZHxqspUwmFpgIXw==",
             "measurement": "device"
         }
     }
